@@ -24,7 +24,7 @@ SOONG_CONFIG_aospaGlobalVars += \
 
 # Set default values
 TARGET_INIT_VENDOR_LIB ?= vendor_init
-TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_UDFPS_lib
+TARGET_SURFACEFLINGER_UDFPS_LIB ?= surfaceflinger_udfps_lib
 
 # Soong value variables
 SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
